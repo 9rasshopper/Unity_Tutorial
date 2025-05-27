@@ -9,14 +9,14 @@ public class StudyArray : MonoBehaviour
     //public List<int> listNum = new List<int>(); 
     // List 를 사용할 경우 using System.Collections.Generic;을 추가해야 한다.
 
-    int number1 = 1; //int 앞에 아무것도 적지않으면 private와 동일하므로 유니티 인스펙터에 보이지 않음
-    private int number2 = 2; //private는 인스펙터에 보이지 않음
+    //int number1 = 1; //int 앞에 아무것도 적지않으면 private와 동일하므로 유니티 인스펙터에 보이지 않음
+    //private int number2 = 2; //private는 인스펙터에 보이지 않음
 
-    public int number3 = 3; //public은 유니티 인스펙터에만 보임
-    [SerializeField] private int number4 = 4;   //private는 인스펙터에 보이지 않지만 [SerializeField]를 붙이면 인스펙터에서만 보임
+    //public int number3 = 3; //public은 유니티 인스펙터에만 보임
+    //[SerializeField] private int number4 = 4;   //private는 인스펙터에 보이지 않지만 [SerializeField]를 붙이면 인스펙터에서만 보임
 
-    [SerializeField]  //[SerializeField] = 직렬화된 필드, 인스펙터에서 보이게 해주는 속성 / 위쪽에 붙여도 됨
-    int number5 = 5; // private와 동일하므로 유니티 인스펙터에 보이지 않지만 [SerializeField]를 붙이면 인스펙터에서만 보임      
+    //[SerializeField]  //[SerializeField] = 직렬화된 필드, 인스펙터에서 보이게 해주는 속성 / 위쪽에 붙여도 됨
+    //int number5 = 5; // private와 동일하므로 유니티 인스펙터에 보이지 않지만 [SerializeField]를 붙이면 인스펙터에서만 보임      
 
 
 
