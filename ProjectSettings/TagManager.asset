@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - "\uD0DC\uADF8"
+  - Ground
+  - Pipe
   layers:
   - Default
   - TransparentFX
