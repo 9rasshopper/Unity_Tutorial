@@ -7,6 +7,10 @@ TagManager:
   - "\uD0DC\uADF8"
   - Ground
   - Pipe
+  - Score10
+  - Score50
+  - Score100
+  - GameOver
   layers:
   - Default
   - TransparentFX
