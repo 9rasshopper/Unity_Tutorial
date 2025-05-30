@@ -3,7 +3,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float speed;
-
+    public static int coinCount = 0; // 코인 개수 변수 추가
     void Update()
     {
         //Input System (Old Legacy)
@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
         Vector3 dir = new Vector3(h, 0, v);
         Vector3 normalDir = dir.normalized; //정규화된 벡터, 방향만 남기고 크기를 0 ~ 1로 만들어줌
 
-        Debug.Log($"현재입력 : {normalDir}");
+        //Debug.Log($"현재입력 : {normalDir}");
 
         transform.position += dir.normalized * speed * Time.deltaTime; //이동하는 방향에 속도와 시간을 곱해줌
         transform.LookAt(transform.position + dir.normalized); //이동하는 방향을 바라보게 해줌
@@ -48,5 +48,7 @@ public class Movement : MonoBehaviour
         //    this.transform.position += Vector3.right * speed * Time.deltaTime;
         //}
     }
+
+
 }
 
